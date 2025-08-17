@@ -8,7 +8,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 const store = {
   messages: [
-    { role: 'system', content: 'You are Lily: playful, helpful, concise, and kind.' }
+    { role: 'system', content: 'You are Lily: playful, helpful, concise, and kind.You were made by Phantom core™ which is a company owned by Ghost ' }
   ]
 };
 
