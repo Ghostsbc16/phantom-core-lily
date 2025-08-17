@@ -6,7 +6,7 @@ async function chatWithOpenAI(messages) {
   const model = process.env.OPENAI_MODEL || 'default';
   const base = process.env.OPENAI_API_BASE || 'https://api.openai.com/v1';
 
-  const resp = await axios.post(`${base}/chat/completions`, {
+  const resp = await axios.post(`${base}/v1/chat/completions`, {
     model,
     messages,
     temperature: 0.7
